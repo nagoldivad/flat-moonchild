@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Flat Child
+ Theme URI:    http://moonhowlings.net
+ Description:  Flat Child Theme
+ Author:       David M. Logan
+ Author URI:   http://nowhere.com
+ Template:     flat
+ Version:      0.9
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, orange, white, white, dark, light, two-columns, responsive-layout, left-sidebar, custom-background, custom-colors, custom-menu, editor-style, post-formats, custom-colors, translation-ready,featured-images, threaded-comments, translation-ready,photoblogging
+ Text Domain:  flat-moonchild
+*/
+
+/* - - - - - - - - - - - - - - - - 
+ * Overrides
+ */
+
+body {
+	background-color: #a0a0a0; /* override flat's background */
+}
+
+blockquote {
+	border-left: 8px solid #e0e0e0;
+	background-color: #f2f2ff;
+}
+/*
+.site-info {
+	text-align: center;
+	padding: 30px;
+	font-size: 12px;
+	background: #eeeeee;
+}
+.site-info a {
+	color: #333333;
+}*/
+
+/* - - - - - - - - - - - - - - - - 
+ * Comments
+ */
+
+/* override flat's list indentation */
+#comments .children {
+	margin: 0px !important;
+	padding: 0;
+	list-style: none;
+}
+/* what exactly does this do??? */
+.comment-content a {
+	word-wrap: break-word;
+}
+/* hide flat's comment reply link */
+div.reply a.comment-reply-link {
+	display: none;
+}
+div.comment-content blockquote, q{
+	border-left: 8px solid #e0e0e0;
+	background-color: #f2f2ff;
+}
